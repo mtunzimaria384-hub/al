@@ -366,8 +366,8 @@ export function FoodiesRoute() {
                   className="relative ml-2 flex items-center gap-1 bg-gray-50 px-2 py-1 rounded-full border border-gray-200 hover:bg-gray-100 transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
                   whileTap={{ scale: cart.length > 0 ? 0.95 : 1 }}
                 >
-                  <span className="text-sm">🍔</span>
-                  <span className="text-[10px] font-medium text-gray-700">View your foodies</span>
+                   
+                  <span className="text-[10px] font-medium text-gray-700">View your item</span>
                   {unselectedFoods.length > 0 && (
                     <motion.span
                       initial={{ scale: 0 }}
